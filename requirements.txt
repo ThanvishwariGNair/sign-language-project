@@ -1,0 +1,6 @@
+flask
+numpy
+opencv-python-headless
+mediapipe
+scikit-learn
+gunicorn
