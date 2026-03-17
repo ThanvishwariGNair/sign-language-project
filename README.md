@@ -2,6 +2,8 @@
 
 A real-time Sign Language Recognition system built using **Python, OpenCV, and MediaPipe** that detects hand gestures through a webcam and predicts corresponding alphabets using a Machine Learning model.
 
+<img width="1324" height="820" alt="Screenshot 2026-03-17 222547" src="https://github.com/user-attachments/assets/6d721881-d829-45fb-98b6-38bca38e1584" />
+
 ---
 
 ## 🚀 Features
@@ -19,7 +21,6 @@ A real-time Sign Language Recognition system built using **Python, OpenCV, and M
 * Python
 * OpenCV
 * MediaPipe
-* Scikit-learn
 * NumPy
 
 ---
@@ -94,16 +95,5 @@ python webcam_classifier.py
 * Add full alphabet support (A–Z)
 * Improve model accuracy using deep learning
 * Add word/sentence recognition
-* UI/Frontend integration
-
 ---
 
-## 📌 Author
-
-**Thanvishwari Nair**
-
----
-
-## ⭐ If you like this project
-
-Give it a star on GitHub and share it!
