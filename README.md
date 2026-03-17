@@ -32,7 +32,7 @@ sign-language-project/
 │── collect_image.py       # Script to collect dataset  
 │── create_dataset.py      # Extract hand landmarks  
 │── train_classifier.py    # Train ML model  
-│── inference_classifier.py # Real-time prediction  
+│── webcam_classifier.py # Real-time prediction  
 │── model.p                # Trained model  
 │── data.pickle            # Processed dataset  
 ```
@@ -84,7 +84,7 @@ python train_classifier.py
 ### 5️⃣ Run Prediction
 
 ```
-python inference_classifier.py
+python webcam_classifier.py
 ```
 
 ---
@@ -100,7 +100,7 @@ python inference_classifier.py
 
 ## 📌 Author
 
-**Tanvi Nair**
+**Thanvishwari Nair**
 
 ---
 
