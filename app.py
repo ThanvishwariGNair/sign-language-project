@@ -37,7 +37,7 @@ def predict():
     x_ = []
     y_ = []
 
-    prediction_text = "No hand detected"   # ✅ default
+    prediction_text = "No hand detected"   #  default
 
     if results.multi_hand_landmarks:
         for hand_landmarks in results.multi_hand_landmarks:
@@ -53,7 +53,7 @@ def predict():
             prediction = model.predict([np.asarray(data_aux)])
             prediction_text = labels_dict[int(prediction[0])]
 
-    # ✅ THIS IS THE IMPORTANT LINE
+    # important 
     return render_template('index.html', prediction=prediction_text)
 if __name__ == '__main__':
     app.run()
